@@ -1,5 +1,10 @@
 # cflash
-Small and lightweight image and iso flasher build on `dd`.
+Small and lightweight image and iso flasher build on `dd`. 
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+[![Java Version](https://img.shields.io/badge/Java-21%2B-orange.svg)](https://www.java.com/en/)
+[![Platform](https://img.shields.io/badge/Platform-Linux-brightgreen.svg)](https://www.linux.org/)
+[![Status](https://img.shields.io/badge/Status-Beta-red.svg)](https://en.wikipedia.org/wiki/Software_release_life_cycle#Beta)
 
 # About
 Java program using `dd` to make flashing iso and image files easier on the terminal. This program allows anyone to flash iso and image files without having to search for extra GUI tools and by keeping it simple and resource-friendly.
