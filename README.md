@@ -21,7 +21,7 @@ Java program using `dd` to make flashing iso and image files easier on the termi
     3. You will be prompted to choose a byte size (default: 4M)
     4. You will be prompted to enter your oflag (default: direct)
     5. You will be asked if you are absolutely sure that you want to continue (flashing will wipe all data)
-- Alternative: using `cflash [device] [iso-path] [block-size] [oflag]` will skip the first question and instantly ask you, if you're absolutely sure you want to continue.
+- Alternative: using `cflash [device] [iso-path] [block-size] [oflag]` will skip the questions and instantly ask you, if you're absolutely sure you want to continue.
 - Once confirmed, the flash will start and a small progress bar will appear showing the flashing progress.
 - After completion, the program will detect the OS from the iso and wish you a great time with your new OS. (Example: "Done! Have fun with your new Linux installation!)
 - **IMPORTANT**: Since dd needs sudo rights, ensure you have root priviliges.
